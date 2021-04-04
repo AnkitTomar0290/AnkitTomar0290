@@ -1,0 +1,27 @@
+{
+    "environment_def": {
+        "CMTS": {
+            "model": "C4",
+            "type": "arris"
+        },
+        "board": {
+            "country": "NL",
+            "eRouter_Provisioning_mode": "disabled",
+            "model": "CH7465LG",
+            "software": {
+                "dependent_software": {
+                    "flash_strategy": "all",
+                    "image_uri": "/OneFirmware/20201001/ch7465c_lgi_develop_lgi-20201001_npcpu-appcpu.img"
+                },
+                "factory_reset": true,
+                "flash_strategy": "all",
+                "image_uri": "/OneFirmware/20201001/ch7465c_lgi_develop_lgi-20201001_npcpu-appcpu.img"
+            }
+        },
+        "tr-069": {
+            "packet_analysis": false
+        },
+        "voice": {}
+    },
+    "version": 2.0
+}
